@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>form</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width,intial-scale=1.0">
+    </head>
+    <body>
+        <form action="" >
+            <label>Name</label><br>
+            <input type="text" placeholder="name" value="" required s maxlength="25"><br><br>
+            <label>E-mail</label><br>
+            <input type="email" value="test@example.com" autofocus><br><br>
+            <label>Password</label><br>
+            <input type="password" pattern="A-Za-z-{6}" required><br><br>
+            <label>category</label><br>
+            <select required> 
+                <option>freelancer</option>
+                <option>employee</option>
+                <option>student</option>
+            </select>
+            <br><br>
+            <label>Event date</label>
+            <input type="date" value="event date" required><br><br>
+            <label>select no: of tickets</label><br>
+            <label>1 ticket &nbsp;</label>
+            <input type="radio" name="ticket"><br>
+            <label>2 tickets</label>
+            <input type="radio" name="ticket" checked><br>
+            <label>3 tickets</label>
+            <input type="radio" name="ticket" required><br><br>
+            <label>payment</label>
+            <input type="checkbox"  value="online" checked><br><br>
+            <label>notes</label><br>
+            <textarea rows="4" cols="59" minlength="5" maxlength="1000" placeholder="notes">type here.....</textarea><br><br><br>
+            <input type="submit" name="submit" style="background: rgb(147, 249, 147);">
+
+        </form>
+    </body>
+</html>
